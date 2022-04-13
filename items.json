@@ -1,0 +1,234 @@
+
+var data = [{
+   "id": 1,
+    "title": "Crispy corn",
+    "category": "Starters",
+    "price": 3.99,
+    "img": "./images/CrispyCorn.jpeg",
+    "special":[ 0]
+  },
+  {
+    "id": 2,
+    "title": "Aloo Tikki",
+    "category": "Starters",
+    "price": 3.99,
+    "img": "./images/AlooTikki.jpeg",
+    "special":[ 1]
+  },
+  {
+    "id": 3,
+    "title": "Kachori",
+    "category": "Starters",
+    "price": 2.99,
+    "img": "./images/Kachori.jpeg",
+    "special":[ 2]
+  },
+  {
+    "id": 4,
+    "title": "Mixed Broth",
+    "category": "Starters",
+    "price": 3.99,
+    "img": "./images/MixedBroth.jpeg",
+    "special":[ 3]
+  },
+  {
+    "id": 5,
+    "title": "Tandoori Chicken",
+    "category": "Starters",
+    "price": 4.99,
+    "img": "./images/TandooriChicken.png",
+    "special":[ 4,6]
+  },
+  {
+    "id": 6,
+    "title": "Lamb Chops",
+    "category": "Starters",
+    "price": 5.99,
+    "img": "./images/LambChops.png",
+    "special":[ 5]
+  },
+  {
+    "id": 7,
+    "title": "Dal Tadka",
+    "category": "Main Course",
+    "price": 8.99,
+    "img": "./images/DalTadka.jpeg",
+    "special":[ 0]
+  },
+  {
+    "id": 8,
+    "title": "Kadai Paneer",
+    "category": "Main Course",
+    "price": 9.99,
+    "img": "./images/KadaiPaneer.jpeg",
+    "special":[ 1]
+  },
+  {
+    "id": 9,
+    "title": "Malai Kofta Curry",
+    "category": "Main Course",
+    "price": 8.99,
+    "img": "./images/MalaiKofta.jpeg",
+    "special":[ 2]
+  },
+  {
+    "id": 10,
+    "title": "Paneer Butter Masala",
+    "category": "Main Course",
+    "price": 8.99,
+    "img": "./images/PaneerButterMasala.jpeg",
+    "special":[ 3,6]
+  },
+  {
+    "id": 11,
+    "title": "Kadai Chicken",
+    "category": "Main Course",
+    "price": 10.99,
+    "img": "./images/KadaiChicken.jpeg",
+    "special":[ 4]
+  },
+  {
+    "id": 12,
+    "title": "Mutton Rogan Josh",
+    "category": "Main Course",
+    "price": 10.99,
+    "img": "./images/MuttonRoganJosh.jpeg",
+    "special":[ 5]
+  },
+  {
+    "id": 13,
+    "title": "Veg Biryani",
+    "category": "Biryanis",
+    "price": 14.99,
+    "img": "./images/VegBiryani.png",
+    "special":[ 0]
+  },
+  {
+    "id": 14,
+    "title": "Chicken Dum Biryani",
+    "category": "Biryanis",
+    "price": 16.99,
+    "img": "./images/ChickenDumBiryani.jpeg",
+    "special":[ 1,4]
+  },
+  {
+    "id": 15,
+    "title": "Mutton Biryani",
+    "category": "Biryanis",
+    "price": 16.99,
+    "img": "./images/MuttonBiryani.jpeg",
+    "special":[ 2,5]
+  },
+  {
+    "id": 16,
+    "title": "Prawn Pulao",
+    "category": "Biryanis",
+    "price": 15.99,
+    "img": "./images/PrawnPulao.jpeg",
+    "special":[ 3,6]
+  },
+  {
+    "id": 17,
+    "title": "Tandoori Roti",
+    "category": "Indian Breads",
+    "price": 0.99,
+    "img": "./images/TandooriRoti.jpeg",
+    "special":[ 0]
+  },
+  {
+    "id": 18,
+    "title": "Butter Roti",
+    "category": "Indian Breads",
+    "price": 0.99,
+    "img": "./images/ButterRoti.jpeg",
+    "special":[ 1]
+  },
+  {
+    "id": 19,
+    "title": "Butter Naan",
+    "category": "Indian Breads",
+    "price": 1.99,
+    "img": "./images/ButterNaan.png",
+    "special":[ 2,4,5,6]
+  },
+  {
+    "id": 20,
+    "title": "Garlic Roti",
+    "category": "Indian Breads",
+    "price": 1.99,
+    "img": "./images/GarlicRoti.jpeg",
+    "special":[ 3]
+  },
+  {
+    "id": 21,
+    "title": "Apricot delight",
+    "category": "Desserts",
+    "price": 2.99,
+    "img": "./images/ApricotDelight.jpeg",
+    "special":[ 0,5,6]
+  },
+  {
+    "id": 22,
+    "title": "Gulab Jamun",
+    "category": "Desserts",
+    "price": 2.99,
+    "img": "./images/GulabJamun.jpeg",
+    "special":[ 1]
+  },
+  {
+    "id": 23,
+    "title": "Kheer",
+    "category": "Desserts",
+    "price": 1.99,
+    "img": "./images/Kheer.jpeg",
+    "special":[ 2]
+  },
+  {
+    "id": 24,
+    "title": "Rasmalai",
+    "category": "Desserts",
+    "price": 2.99,
+    "img": "./images/Rasmalai.jpeg",
+    "special":[ 3]
+  },
+  {
+    "id": 25,
+    "title": "Qubani ka meeta",
+    "category": "Desserts",
+    "price": 1.99,
+    "img": "./images/Qubanikameeta.jpeg",
+    "special":[ 4]
+  },
+  {
+    "id": 26,
+    "title": "Badam Milk",
+    "category": "Drinks",
+    "price": 1.99,
+    "img": "./images/BadamMilk.png",
+    "special":[]
+  },
+  {
+    "id": 27,
+    "title": "Diet Coke",
+    "category": "Drinks",
+    "price": 0.99,
+    "img": "./images/DietCoke.png",
+    "special":[]
+  },
+  {
+    "id": 28,
+    "title": "Thums Up",
+    "category": "Drinks",
+    "price": 0.99,
+    "img": "./images/ThumsUp.jpg",
+    "special":[]
+  },
+  {
+    "id": 29,
+    "title": "Grape Juice",
+    "category": "Drinks",
+    "price": 1.99,
+    "img": "./images/GrapeJuice.jpeg",
+    "special":[]
+  }
+]
